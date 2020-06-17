@@ -4,7 +4,7 @@ const routes = Router();
 
 routes.get('/', (resquest, response) =>
   response.json({
-    message: 'rodou mesmo',
+    message: 'Projeto rodando na porta 3333',
   }),
 );
 
