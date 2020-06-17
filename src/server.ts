@@ -1,10 +1,9 @@
 import express from 'express';
+import routes from './routes';
 
 const app = express();
 
-app.get('/', (resquest, response) => response.json({
-  message: 'rodou mesmo',
-}));
+app.use(routes);
 
 app.listen(3333, () => {
   console.log('Servidor deu bom');
