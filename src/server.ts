@@ -2,12 +2,10 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (resquest, response) => {
-  return response.json({
-    message: 'rodou mesmo'
-  })
-})
+app.get('/', (resquest, response) => response.json({
+  message: 'rodou mesmo',
+}));
 
 app.listen(3333, () => {
-  console.log('Servidor deu bom')
-})
+  console.log('Servidor deu bom');
+});
