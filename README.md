@@ -37,5 +37,5 @@ $ yarn add
 Depois que todas as dependências forem instaladas, rode o script abaixo para o servidor começar a rodar na porta 3333
 
 ```
-$ dev:server
+$ yarn dev:server
 ```
