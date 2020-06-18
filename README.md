@@ -31,7 +31,7 @@ $ git clone https://github.com/niltonpedro/backend-node-with-typescript-template
 Ao entrar no diretório do projeto, rode o comando abaixo para instalação de todas as dependências.
 
 ```
-$ yarn add
+$ yarn
 ```
 
 Depois que todas as dependências forem instaladas, rode o script abaixo para o servidor começar a rodar na porta 3333
